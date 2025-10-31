@@ -1,0 +1,31 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Archivos de datos
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.json
+
+# Notebooks temporales
+.ipynb_checkpoints/
+
+# Configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de salida o logs
+logs/
+outputs/
+models/
+
+# Credenciales
+*.env
+*.ini
+*.cfg
+*.secret
